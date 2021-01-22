@@ -1,0 +1,21 @@
+def counts(a,b):
+    for i in b:
+        print(i,"=",a.count(i))
+a=input("please enter the string")
+b=[]
+for i in a:
+    c=0
+    for j in b:
+        if i==j :
+            c=c+1
+    if(c==0):
+        b.append(i)
+for i in range(0,(len(b)-1);
+    maxi=i
+    for j in range(i,len(b)):
+        if(a.count(maxi)<a.count(j)):
+           maxi=j
+    e=b[i]
+    b[i]=b[maxi]
+    b[maxi]=e
+counts(a,b)
